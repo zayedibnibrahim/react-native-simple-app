@@ -1,11 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import CarItem from './components/CarItem'
 
-export default function App() {
+const App = () => {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <CarItem name="Model S" image={require('./assets/images/ModelS.jpeg')} tagline={'Demo test for model S'} taglineCTA={'love Model S'}/>
       <StatusBar style="auto" />
     </View>
   );
@@ -19,3 +20,4 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+export default App;
