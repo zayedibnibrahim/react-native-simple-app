@@ -10,6 +10,7 @@ const Header = () => {
       <Image style={styles.menu} source={require('../../assets/images/menu.png')} />
     </View>
   );
+  // This is Header
 };
 
 export default Header;
