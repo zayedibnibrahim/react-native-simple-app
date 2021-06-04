@@ -1,9 +1,11 @@
 import React from 'react';
-import { View, Text, ImageBackground } from 'react-native';
+import {View, Text, ImageBackground} from 'react-native';
 import StyledButton from "../StyledButton";
 import styles from './styles';
 
-const index = ({ name, tagline, taglineCTA, image }) => {
+const CarItem = (props) => {
+
+  const { name, tagline, taglineCTA, image } = props.car;
     return (
         <View style={styles.carContainer}>
             <ImageBackground
@@ -33,4 +35,4 @@ const index = ({ name, tagline, taglineCTA, image }) => {
     )
 }
 
-export default index;
+export default CarItem;
