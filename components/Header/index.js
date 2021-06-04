@@ -11,6 +11,7 @@ const Header = () => {
     </View>
   );
   // This is Header
+//This is another Header
 };
 
 export default Header;
