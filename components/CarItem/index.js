@@ -29,7 +29,7 @@ const CarItem = (props) => {
                 <StyledButton type="secondary" content="Existing Inventory" onPress={() => console.warn("Its ok, man")}></StyledButton>
             </View>
 
-
+// Complete
 
         </View>
     )
